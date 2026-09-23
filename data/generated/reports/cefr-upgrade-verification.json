@@ -1,0 +1,37 @@
+{
+  "version": "offline-v1-c9011a32432e3b83c703",
+  "preservedTables": [
+    "cards",
+    "review_logs",
+    "sessions",
+    "study_rounds",
+    "checkins",
+    "examples",
+    "meanings"
+  ],
+  "preservedWordIds": 10780,
+  "books": [
+    {
+      "id": "a1-core",
+      "total": 642
+    },
+    {
+      "id": "a2-core",
+      "total": 251
+    },
+    {
+      "id": "b1-core",
+      "total": 510
+    },
+    {
+      "id": "b2-core",
+      "total": 906
+    },
+    {
+      "id": "my-vocabulary",
+      "total": 0
+    }
+  ],
+  "a2Study": true,
+  "globalReviewUnchanged": true
+}

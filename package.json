@@ -1,22 +1,48 @@
 {
   "name": "french-words",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "dependencies": {
     "expo": "~57.0.24",
+    "expo-blur": "~57.0.3",
+    "expo-constants": "~57.0.19",
+    "expo-crypto": "~57.0.3",
+    "expo-linear-gradient": "~57.0.2",
+    "expo-linking": "~57.0.10",
+    "expo-router": "~57.0.22",
+    "expo-sqlite": "~57.0.3",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
-    "react-native": "0.86.3"
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-worklets": "0.10.1",
+    "ts-fsrs": "5.4.2"
   },
   "devDependencies": {
+    "@types/node": "^26.6.2",
     "@types/react": "~19.2.2",
+    "csv-parse": "^7.0.2",
+    "fast-xml-parser": "^5.11.1",
+    "tsx": "^4.23.13",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "data:fetch:freedict": "tsx scripts/data/fetch-freedict.ts",
+    "data:fetch:flelex": "tsx scripts/data/fetch-flelex.ts",
+    "data:build": "tsx scripts/data/build-dataset.ts",
+    "data:verify": "tsx scripts/data/verify-import.ts",
+    "data:fetch:tatoeba": "python scripts/data/prepare-tatoeba.py"
   },
   "private": true
 }

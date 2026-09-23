@@ -1,0 +1,2498 @@
+[
+  {
+    "index": 15,
+    "lemma": "Abdallah",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 16,
+    "lemma": "Abdullah",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 31,
+    "lemma": "Adrien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 39,
+    "lemma": "Ahmad",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 53,
+    "lemma": "Albert",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 56,
+    "lemma": "Alexandre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 60,
+    "lemma": "Alice",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 85,
+    "lemma": "Anastasie",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 96,
+    "lemma": "André",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 97,
+    "lemma": "Ange",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 108,
+    "lemma": "Angèle",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 118,
+    "lemma": "Antoine",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 173,
+    "lemma": "Audrey",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 187,
+    "lemma": "Ayrault",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 228,
+    "lemma": "Basile",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 281,
+    "lemma": "Bonaparte",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 292,
+    "lemma": "Boukharine",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 310,
+    "lemma": "Bruce",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 312,
+    "lemma": "Bruno",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 335,
+    "lemma": "Bélinda",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 362,
+    "lemma": "Camille",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 393,
+    "lemma": "Catherine",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 412,
+    "lemma": "Charles",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 413,
+    "lemma": "Charlotte",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 450,
+    "lemma": "Chirac",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 456,
+    "lemma": "Christophe",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 471,
+    "lemma": "Cléopâtre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 537,
+    "lemma": "Courtois",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 578,
+    "lemma": "David",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 586,
+    "lemma": "Dieu merci",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 650,
+    "lemma": "Eugène",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 651,
+    "lemma": "Eugénie",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 693,
+    "lemma": "Fourier",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 706,
+    "lemma": "Fushimi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 729,
+    "lemma": "Georges",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 773,
+    "lemma": "Guillaume",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 777,
+    "lemma": "Gustave",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 817,
+    "lemma": "Henri",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 823,
+    "lemma": "Hitler",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 894,
+    "lemma": "Jacques",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 908,
+    "lemma": "Jean",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 911,
+    "lemma": "Jessica",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 921,
+    "lemma": "Joseph",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 922,
+    "lemma": "Josselin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 923,
+    "lemma": "Josué",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 958,
+    "lemma": "Kevin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 961,
+    "lemma": "Khrouchtchev",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1011,
+    "lemma": "Lazare",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1018,
+    "lemma": "Lecornu",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1021,
+    "lemma": "Leroy",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1063,
+    "lemma": "Louis",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1069,
+    "lemma": "Lucie",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1082,
+    "lemma": "Léda",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1107,
+    "lemma": "Madame",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1108,
+    "lemma": "Mademoiselle",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1137,
+    "lemma": "Mao",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1141,
+    "lemma": "Margot",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1142,
+    "lemma": "Marguerite",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1150,
+    "lemma": "Martin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1154,
+    "lemma": "Mathilde",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1156,
+    "lemma": "Matthieu",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1158,
+    "lemma": "Maxime",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1171,
+    "lemma": "Mendeleïev",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1174,
+    "lemma": "Merckx",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1179,
+    "lemma": "Meunier",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1183,
+    "lemma": "Michaël",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1184,
+    "lemma": "Michel",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1195,
+    "lemma": "Miranda",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1201,
+    "lemma": "Mogherini",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1210,
+    "lemma": "Monsieur",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1224,
+    "lemma": "Moustapha",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1229,
+    "lemma": "Moïse",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1236,
+    "lemma": "Mussolini",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1242,
+    "lemma": "Mélissa",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1248,
+    "lemma": "Müller",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1271,
+    "lemma": "Natacha",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1285,
+    "lemma": "Nicodème",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1286,
+    "lemma": "Nicolas",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1294,
+    "lemma": "Nina",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1348,
+    "lemma": "Olivier",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1368,
+    "lemma": "Oscar",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1410,
+    "lemma": "Paris ne s’est pas fait en un jour",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1415,
+    "lemma": "Paul",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1444,
+    "lemma": "Philippe",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1448,
+    "lemma": "Philips",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1454,
+    "lemma": "Picasso",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1455,
+    "lemma": "Pierre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1498,
+    "lemma": "Poutine",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1527,
+    "lemma": "Qin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1531,
+    "lemma": "Quentin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1563,
+    "lemma": "Richard",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1574,
+    "lemma": "Rome ne s’est pas faite en un jour",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1575,
+    "lemma": "Roméo",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1582,
+    "lemma": "Roxane",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1645,
+    "lemma": "Sa Majesté",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1646,
+    "lemma": "Sa Majesté Impériale",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1692,
+    "lemma": "Saïd",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1703,
+    "lemma": "Seigneur",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1724,
+    "lemma": "Shakespeare",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1792,
+    "lemma": "Stéphane",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1806,
+    "lemma": "Suzanne",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1816,
+    "lemma": "Sylvain",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1824,
+    "lemma": "Sésame, ouvre-toi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1856,
+    "lemma": "Tchaïkovski",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1876,
+    "lemma": "Tesla",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1887,
+    "lemma": "Thibault",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1939,
+    "lemma": "Trotski",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 1999,
+    "lemma": "Vincent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2013,
+    "lemma": "Votre Excellence",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2014,
+    "lemma": "Votre Majesté",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2015,
+    "lemma": "Votre Majesté Impériale",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2025,
+    "lemma": "Wagner",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2041,
+    "lemma": "Wilkinson",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2042,
+    "lemma": "Wilson",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2051,
+    "lemma": "Xavier",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2052,
+    "lemma": "Xi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2053,
+    "lemma": "Xiaoping",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2085,
+    "lemma": "Zedong",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2086,
+    "lemma": "Zemmour",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2260,
+    "lemma": "aide-toi, le ciel t’aidera",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2299,
+    "lemma": "alerte",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2317,
+    "lemma": "allez",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2323,
+    "lemma": "alléluia",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2325,
+    "lemma": "allô",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2533,
+    "lemma": "après",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2535,
+    "lemma": "après la pluie, le beau temps",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2536,
+    "lemma": "après moi le déluge",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2678,
+    "lemma": "atchoum",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2698,
+    "lemma": "au diable l’avarice",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2701,
+    "lemma": "au nom du Père et du Fils et du Saint-Esprit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2703,
+    "lemma": "au revoir",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2704,
+    "lemma": "au royaume des aveugles, les borgnes sont rois",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2705,
+    "lemma": "au secours",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2717,
+    "lemma": "aujourd’hui Hong Kong, demain Taïwan",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2718,
+    "lemma": "aujourd’hui Hong Kong, demain Taïwan, après-demain Okinawa",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2749,
+    "lemma": "autrui",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2750,
+    "lemma": "aux grands maux les grands remèdes",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2762,
+    "lemma": "avec",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2810,
+    "lemma": "aïe",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2875,
+    "lemma": "banzai",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2978,
+    "lemma": "bien mal acquis ne profite jamais",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2979,
+    "lemma": "bien que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 2986,
+    "lemma": "bienvenue",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3097,
+    "lemma": "bon appétit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3098,
+    "lemma": "bon courage",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3101,
+    "lemma": "bon vent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3105,
+    "lemma": "bonjour",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3106,
+    "lemma": "bonne année",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3108,
+    "lemma": "bonne chance",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3109,
+    "lemma": "bonne nuit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3111,
+    "lemma": "bonsoir",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3247,
+    "lemma": "bye-bye",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3418,
+    "lemma": "carpe diem",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3478,
+    "lemma": "ce n’est pas à un vieux singe qu’on apprend à faire des grimaces",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3479,
+    "lemma": "ceci",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3484,
+    "lemma": "cela",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3489,
+    "lemma": "celui-ci",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3490,
+    "lemma": "celui-là",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3494,
+    "lemma": "cent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3495,
+    "lemma": "cent mille",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3497,
+    "lemma": "cent-mille",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3529,
+    "lemma": "ceux-ci",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3582,
+    "lemma": "chaque",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3593,
+    "lemma": "charité bien ordonnée commence par soi-même",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3608,
+    "lemma": "chassez le naturel, il revient au galop",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3614,
+    "lemma": "chat échaudé craint l’eau froide",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3673,
+    "lemma": "chien qui aboie ne mord pas",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3710,
+    "lemma": "chose promise, chose due",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3741,
+    "lemma": "chut",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3773,
+    "lemma": "cinq",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3777,
+    "lemma": "cinquante",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3855,
+    "lemma": "cocorico",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3868,
+    "lemma": "cogito ergo sum",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3874,
+    "lemma": "coin-coin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3897,
+    "lemma": "combien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3898,
+    "lemma": "combientième",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3904,
+    "lemma": "comme pour",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3905,
+    "lemma": "comme si",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 3949,
+    "lemma": "compte tenu de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4062,
+    "lemma": "coquericot",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4102,
+    "lemma": "cot cot codet",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4135,
+    "lemma": "courage",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4249,
+    "lemma": "cul sec",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4329,
+    "lemma": "c’est du chinois",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4330,
+    "lemma": "c’est en forgeant que l’on devient forgeron",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4331,
+    "lemma": "c’est en forgeant qu’on devient forgeron",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4332,
+    "lemma": "c’est la poêle qui se fout du chaudron",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4333,
+    "lemma": "c’est la poêle qui se moque du chaudron",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4334,
+    "lemma": "c’est la vie",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4335,
+    "lemma": "c’est l’hôpital qui se moque de la charité",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4347,
+    "lemma": "dans la mesure où",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4363,
+    "lemma": "de rien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4410,
+    "lemma": "des goûts et des couleurs, on ne discute pas",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4421,
+    "lemma": "deux",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4429,
+    "lemma": "devant",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4531,
+    "lemma": "dix",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4533,
+    "lemma": "dix-huit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4535,
+    "lemma": "dix-mille",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4537,
+    "lemma": "dix-sept",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4576,
+    "lemma": "douze",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4743,
+    "lemma": "désolé",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4772,
+    "lemma": "d’autant plus que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4800,
+    "lemma": "elle",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4801,
+    "lemma": "elles",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4828,
+    "lemma": "en fonction de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4966,
+    "lemma": "et",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4978,
+    "lemma": "euh",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 4987,
+    "lemma": "eurêka",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5005,
+    "lemma": "excusez-moi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5080,
+    "lemma": "farce ou friandise",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5094,
+    "lemma": "faute de grives on mange des merles",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5217,
+    "lemma": "fois",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5342,
+    "lemma": "félicitations",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5574,
+    "lemma": "groin",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5744,
+    "lemma": "haut les mains",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5823,
+    "lemma": "hormis",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5845,
+    "lemma": "huit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5993,
+    "lemma": "il",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5994,
+    "lemma": "il faut battre le fer pendant qu’il est chaud",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5995,
+    "lemma": "il faut se méfier de l’eau qui dort",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5996,
+    "lemma": "il n’y a pas de fumée sans feu",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5997,
+    "lemma": "il n’y a pas de quoi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5998,
+    "lemma": "il y a",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 5999,
+    "lemma": "il était une fois",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6006,
+    "lemma": "ils",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6190,
+    "lemma": "je",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6191,
+    "lemma": "je dis ça, je dis rien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6192,
+    "lemma": "je t’aime",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6235,
+    "lemma": "joyeux Noël",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6236,
+    "lemma": "joyeux anniversaire",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6262,
+    "lemma": "jusqu’à",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6349,
+    "lemma": "la curiosité est un vilain défaut",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6350,
+    "lemma": "la ferme",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6352,
+    "lemma": "la meilleure défense, c’est l’attaque",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6353,
+    "lemma": "la parole est d’argent et le silence est d’or",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6354,
+    "lemma": "la parole est d’argent, le silence est d’or",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6355,
+    "lemma": "la vengeance est un plat qui se mange froid",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6357,
+    "lemma": "la vérité sort de la bouche des enfants",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6453,
+    "lemma": "le chat parti, les souris dansent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6454,
+    "lemma": "le chien aboie, la caravane passe",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6455,
+    "lemma": "le jeu en vaut la chandelle",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6456,
+    "lemma": "le mieux est l’ennemi du bien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6457,
+    "lemma": "le poisson pourrit par la tête",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6458,
+    "lemma": "le sort en est jeté",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6466,
+    "lemma": "les grands esprits se rencontrent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6467,
+    "lemma": "les murs ont des oreilles",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6468,
+    "lemma": "les paroles s’envolent, les écrits restent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6469,
+    "lemma": "les rats quittent le navire",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6478,
+    "lemma": "leur",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6581,
+    "lemma": "loin des yeux, loin du cœur",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6595,
+    "lemma": "lorsque",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6662,
+    "lemma": "l’addition, s’il vous plaît",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6663,
+    "lemma": "l’argent ne fait pas le bonheur",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6664,
+    "lemma": "l’argent parle",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6665,
+    "lemma": "l’avenir appartient à ceux qui se lèvent tôt",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6666,
+    "lemma": "l’habit fait l’homme",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6667,
+    "lemma": "l’habit ne fait pas le moine",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6668,
+    "lemma": "l’herbe est plus verte ailleurs",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6669,
+    "lemma": "l’homme est un loup pour l’homme",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6712,
+    "lemma": "mais",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6740,
+    "lemma": "malgré",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6741,
+    "lemma": "malgré que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6873,
+    "lemma": "mdr",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6874,
+    "lemma": "me",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6875,
+    "lemma": "mea culpa",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6927,
+    "lemma": "merci",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6929,
+    "lemma": "merci beaucoup",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6953,
+    "lemma": "miaou",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6970,
+    "lemma": "mieux vaut tard que jamais",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 6983,
+    "lemma": "mille",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7037,
+    "lemma": "moi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7038,
+    "lemma": "moi-même",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7042,
+    "lemma": "moins",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7280,
+    "lemma": "même si",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7320,
+    "lemma": "ne fais pas à autrui ce que tu ne voudrais pas qu’on te fît",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7338,
+    "lemma": "neuf",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7364,
+    "lemma": "nique ta mère",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7424,
+    "lemma": "nonante",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7449,
+    "lemma": "nous",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7450,
+    "lemma": "nous sommes tous cousins",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7509,
+    "lemma": "n’est-ce pas",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7510,
+    "lemma": "n’importe quoi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7553,
+    "lemma": "oh",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7582,
+    "lemma": "on ne fait pas d’omelette sans casser des œufs",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7600,
+    "lemma": "onze",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7612,
+    "lemma": "or",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7692,
+    "lemma": "ou",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7693,
+    "lemma": "ouaf",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7708,
+    "lemma": "ouste",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7733,
+    "lemma": "où",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7833,
+    "lemma": "parce que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7871,
+    "lemma": "pas mal",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7921,
+    "lemma": "pendant que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7958,
+    "lemma": "personne",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7985,
+    "lemma": "petit à petit, l’oiseau fait son nid",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 7995,
+    "lemma": "peu importe que le chat soit noir ou blanc pourvu qu’il attrape les souris",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8055,
+    "lemma": "pierre qui roule n’amasse pas mousse",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8162,
+    "lemma": "plus",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8333,
+    "lemma": "pourquoi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8334,
+    "lemma": "pourquoi pas",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8337,
+    "lemma": "pourvu que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8523,
+    "lemma": "puisque",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8622,
+    "lemma": "quand",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8623,
+    "lemma": "quand le chat n’est pas là, les souris dansent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8624,
+    "lemma": "quand le vin est tiré, il faut le boire",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8626,
+    "lemma": "quand on parle du loup",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8627,
+    "lemma": "quand on parle du loup, on en voit la queue",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8628,
+    "lemma": "quant à",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8630,
+    "lemma": "quarante",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8631,
+    "lemma": "quarante-deux",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8650,
+    "lemma": "quatre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8652,
+    "lemma": "quatre cent quatre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8654,
+    "lemma": "quatre-vingt-dix",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8660,
+    "lemma": "quatre-vingt-un",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8661,
+    "lemma": "quatre-vingts",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8665,
+    "lemma": "que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8667,
+    "lemma": "quelle heure",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8668,
+    "lemma": "quelque chose",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8669,
+    "lemma": "quelqu’un",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8675,
+    "lemma": "qui",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8676,
+    "lemma": "qui a bu boira",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8677,
+    "lemma": "qui aime bien, châtie bien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8678,
+    "lemma": "qui m’aime aime mon chien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8679,
+    "lemma": "qui m’aime me suive",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8680,
+    "lemma": "qui que ce soit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8681,
+    "lemma": "qui se ressemble s’assemble",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8682,
+    "lemma": "qui va à la chasse perd sa place",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8684,
+    "lemma": "quid",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8694,
+    "lemma": "quinze",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8697,
+    "lemma": "quoi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8698,
+    "lemma": "quoi de neuf",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8699,
+    "lemma": "quoique",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8703,
+    "lemma": "qu’est-ce que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8704,
+    "lemma": "qu’est-ce que c’est",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8705,
+    "lemma": "qu’est-ce qui",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8706,
+    "lemma": "qu’à cela ne tienne",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8832,
+    "lemma": "repose en paix",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8864,
+    "lemma": "rien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 8994,
+    "lemma": "référence nécessaire",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9062,
+    "lemma": "sacrebleu",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9098,
+    "lemma": "salut",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9135,
+    "lemma": "sauf",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9235,
+    "lemma": "seize",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9241,
+    "lemma": "selon",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9260,
+    "lemma": "sept",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9264,
+    "lemma": "septante",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9318,
+    "lemma": "si",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9319,
+    "lemma": "si le chapeau te fait, mets-le",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9368,
+    "lemma": "six",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9404,
+    "lemma": "soi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9409,
+    "lemma": "soixante",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9410,
+    "lemma": "soixante-dix",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9467,
+    "lemma": "sous",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9468,
+    "lemma": "sous réserve que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9601,
+    "lemma": "sur le point de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9703,
+    "lemma": "s’il vous plaît",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9804,
+    "lemma": "tel père, tel fils",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 9937,
+    "lemma": "toi",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10000,
+    "lemma": "tous les chemins mènent à Rome",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10003,
+    "lemma": "tout ce qui brille n’est pas or",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10005,
+    "lemma": "tout est bien qui finit bien",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10006,
+    "lemma": "tout le monde",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10007,
+    "lemma": "tout vient à point à qui sait attendre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10054,
+    "lemma": "treize",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10059,
+    "lemma": "trente",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10061,
+    "lemma": "trente-et-un",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10095,
+    "lemma": "trois",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10097,
+    "lemma": "trois-cents",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10145,
+    "lemma": "tss-tss",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10148,
+    "lemma": "tu",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10204,
+    "lemma": "t’oh",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10215,
+    "lemma": "un",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10217,
+    "lemma": "un malheur ne vient jamais seul",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10218,
+    "lemma": "un ou plusieurs",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10219,
+    "lemma": "un pour tous, tous pour un",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10220,
+    "lemma": "un tiens vaut mieux que deux tu l’auras",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10222,
+    "lemma": "une de perdue, dix de retrouvées",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10224,
+    "lemma": "une hirondelle ne fait pas le printemps",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10225,
+    "lemma": "une pluralité de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10258,
+    "lemma": "va te faire foutre",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10324,
+    "lemma": "verba volant, scripta manent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10344,
+    "lemma": "versus",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10395,
+    "lemma": "vingt",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10397,
+    "lemma": "vingt-et-un",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10398,
+    "lemma": "vingt-huit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10434,
+    "lemma": "vivat",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10435,
+    "lemma": "vive",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10467,
+    "lemma": "von Neumann",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10470,
+    "lemma": "votre serviteur",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10472,
+    "lemma": "vouloir c’est pouvoir",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10473,
+    "lemma": "vous",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10481,
+    "lemma": "vraiment",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10558,
+    "lemma": "yeah",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10598,
+    "lemma": "zou",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10603,
+    "lemma": "zéro",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10613,
+    "lemma": "Édouard",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10618,
+    "lemma": "Élie",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10631,
+    "lemma": "Éric",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10662,
+    "lemma": "à Rome, fais comme les Romains",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10664,
+    "lemma": "à bientôt",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10667,
+    "lemma": "à chaque jour suffit sa peine",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10668,
+    "lemma": "à condition que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10669,
+    "lemma": "à cœur vaillant rien d’impossible",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10671,
+    "lemma": "à la différence de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10672,
+    "lemma": "à la place de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10675,
+    "lemma": "à l’aide",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10676,
+    "lemma": "à l’issue de",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10679,
+    "lemma": "à mesure que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10680,
+    "lemma": "à moins que",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10685,
+    "lemma": "à quelque chose malheur est bon",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10688,
+    "lemma": "à tes souhaits",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10689,
+    "lemma": "à tout à l’heure",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10690,
+    "lemma": "à votre santé",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10699,
+    "lemma": "ça suffit",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10700,
+    "lemma": "ça va",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  },
+  {
+    "index": 10937,
+    "lemma": "œil pour œil, dent pour dent",
+    "rawPos": "",
+    "warning": "unknown-pos"
+  }
+]

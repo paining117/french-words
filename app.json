@@ -1,6 +1,8 @@
 {
   "expo": {
-    "name": "french-words",
+    "name": "French Words",
+    "scheme": "french-words",
+    "plugins": ["expo-router", "expo-sqlite"],
     "slug": "french-words",
     "version": "1.0.0",
     "orientation": "portrait",

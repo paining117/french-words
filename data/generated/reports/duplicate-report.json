@@ -1,0 +1,1553 @@
+[
+  {
+    "lemma": "Aigle",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:43",
+      "fra-zho:2263"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Albanais",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:52",
+      "fra-zho:2287"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Allemand",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:65",
+      "fra-zho:2312"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Amour",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:79",
+      "fra-zho:2374"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Anglais",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:100",
+      "fra-zho:2428"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Anthropocène",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:115",
+      "fra-zho:2471"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Arabe",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:124",
+      "fra-zho:2548"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Aube",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:172",
+      "fra-zho:2708"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Aurore",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:175",
+      "fra-zho:2723"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Autel",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:179",
+      "fra-zho:2726"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Aïnou",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:191",
+      "fra-zho:2813"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Bai",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:204",
+      "fra-zho:2831"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Baleine",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:208",
+      "fra-zho:2847"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Bande de Gaza",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:215",
+      "fra-zho:2863"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Biélorusse",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:273",
+      "fra-zho:3042"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Bouddha",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:291",
+      "fra-zho:3138"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Boussole",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:298",
+      "fra-zho:3163"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Bélier",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:335",
+      "fra-zho:3259"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cachemire",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:348",
+      "fra-zho:3285"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cambodgien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:359",
+      "fra-zho:3341"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Caméléon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:366",
+      "fra-zho:3348"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cancer",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:372",
+      "fra-zho:3358"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Castor",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:392",
+      "fra-zho:3458"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Centaure",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:400",
+      "fra-zho:3499"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Champagne",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:406",
+      "fra-zho:3564"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Chaudière",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:417",
+      "fra-zho:3622"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cheval",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:424",
+      "fra-zho:3656"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Chien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:433",
+      "fra-zho:3669"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Chinois",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:450",
+      "fra-zho:3690"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Chèvre",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:460",
+      "fra-zho:3752"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Coccinelle",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:475",
+      "fra-zho:3848"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cochon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:477",
+      "fra-zho:3850"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cognac",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:483",
+      "fra-zho:3870"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Colombe",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:487",
+      "fra-zho:3887"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Compas",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:499",
+      "fra-zho:3929"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Coq",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:513",
+      "fra-zho:4060"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Corbeau",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:520",
+      "fra-zho:4070"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Coréen",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:530",
+      "fra-zho:4099"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Coupe",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:535",
+      "fra-zho:4130"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Cygne",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:557",
+      "fra-zho:4284"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Dauphin",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:578",
+      "fra-zho:4357"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Dieu",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:586",
+      "fra-zho:4461"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Dingo",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:589",
+      "fra-zho:4486"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Dragon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:609",
+      "fra-zho:4579"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Dédale",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:619",
+      "fra-zho:4669"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Estonien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:649",
+      "fra-zho:4965"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Flèche",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:687",
+      "fra-zho:5207"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Force",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:689",
+      "fra-zho:5234"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Fourneau",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:695",
+      "fra-zho:5264"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Français",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:700",
+      "fra-zho:5280"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Galicien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:717",
+      "fra-zho:5370"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Girafe",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:735",
+      "fra-zho:5459"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Grand-Duché de Luxembourg",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:745",
+      "fra-zho:5539"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Grec",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:756",
+      "fra-zho:5558"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Grenade",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:758",
+      "fra-zho:5562"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Grue",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:763",
+      "fra-zho:5604"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Géorgien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:784",
+      "fra-zho:5688"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Hakka",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:791",
+      "fra-zho:5708"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Han",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:796",
+      "fra-zho:797"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Haïtien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:813",
+      "fra-zho:5753"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Horloge",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:839",
+      "fra-zho:5822"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Indien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:874",
+      "fra-zho:875"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Japonais",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:906",
+      "fra-zho:6170"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Jeju",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:910",
+      "fra-zho:6195"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Joker",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:920",
+      "fra-zho:6221"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Jour J",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:926",
+      "fra-zho:6230"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Jupiter",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:932",
+      "fra-zho:933"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Kraken",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:977",
+      "fra-zho:6337"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Licorne",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1031",
+      "fra-zho:6502"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Lion",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1041",
+      "fra-zho:6531"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Lièvre",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1047",
+      "fra-zho:6569"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Loup",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1066",
+      "fra-zho:6602"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Lune",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1074",
+      "fra-zho:6621"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Lézard",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1088",
+      "fra-zho:6661"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Manche",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1130",
+      "fra-zho:6753"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mandchou",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1132",
+      "fra-zho:6762"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mardi gras",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1140",
+      "fra-zho:6804"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Marguerite",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1144",
+      "fra-zho:6806"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mars",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1148",
+      "fra-zho:6817"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mercure",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1176",
+      "fra-zho:1177",
+      "fra-zho:6932"
+    ],
+    "merged": 3
+  },
+  {
+    "lemma": "Mercurochrome",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1178",
+      "fra-zho:6933"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Microscope",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1187",
+      "fra-zho:6964"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mongol",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1207",
+      "fra-zho:7071"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mort",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1221",
+      "fra-zho:7106"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Mouche",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1223",
+      "fra-zho:7130"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Méduse",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1241",
+      "fra-zho:7227"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "NASA",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1250",
+      "fra-zho:1271"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Narcisse",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1268",
+      "fra-zho:7297"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Nord-Ouest",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1301",
+      "fra-zho:7429"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Norvégien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1304",
+      "fra-zho:7435"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Néerlandais",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1323",
+      "fra-zho:7487"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "OTAN",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1333",
+      "fra-zho:1373"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Ouest",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1377",
+      "fra-zho:7697"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Ouïghour",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1386",
+      "fra-zho:7717"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Paon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1406",
+      "fra-zho:7795"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Peintre",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1421",
+      "fra-zho:7915"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Pentagone",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1424",
+      "fra-zho:7932"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Perse",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1430",
+      "fra-zho:1431"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Petit Chaperon rouge",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1435",
+      "fra-zho:7978"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Pharaon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1443",
+      "fra-zho:8003"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Phénix",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1452",
+      "fra-zho:8035"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Portugais",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1493",
+      "fra-zho:8290"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Poucette",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1496",
+      "fra-zho:8316"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Pégase",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1517",
+      "fra-zho:8565"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Rat",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1543",
+      "fra-zho:8778"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Reiki",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1552",
+      "fra-zho:8806"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Renaissance",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1554",
+      "fra-zho:8818"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Roumain",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1581",
+      "fra-zho:8933"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Russe",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1602",
+      "fra-zho:8960"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Règle",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1608",
+      "fra-zho:8968"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Réunion",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1640",
+      "fra-zho:9028"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Scorpion",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1697",
+      "fra-zho:9166"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Seiche",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1703",
+      "fra-zho:9206"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Serpent",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1714",
+      "fra-zho:9276"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Serpentaire",
+    "pos": "noun",
+    "homograph": "m",
+    "sourceRefs": [
+      "fra-zho:1720",
+      "fra-zho:9280"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Sextant",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1722",
+      "fra-zho:9305"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Singe",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1753",
+      "fra-zho:9346"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Soleil",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1772",
+      "fra-zho:9420"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Sucre",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1795",
+      "fra-zho:9565"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Sud-Est",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1797",
+      "fra-zho:9571"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Suisse",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1800",
+      "fra-zho:1801"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Suédois",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1810",
+      "fra-zho:9624"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Système solaire",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1822",
+      "fra-zho:9666"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Table",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1830",
+      "fra-zho:9710"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Taureau",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1852",
+      "fra-zho:9785"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Terre",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1866",
+      "fra-zho:9843"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Thaï",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1884",
+      "fra-zho:9857"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Thermos",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1886",
+      "fra-zho:9861"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Tigre",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1898",
+      "fra-zho:9910"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Triangle",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1928",
+      "fra-zho:10066"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Triton",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1937",
+      "fra-zho:10091"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Trésor public",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1941",
+      "fra-zho:10141"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Télescope",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1953",
+      "fra-zho:10173"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Ukrainien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1961",
+      "fra-zho:10209"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Union Soviétique",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1966",
+      "fra-zho:1969"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Vietnamien",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:1997",
+      "fra-zho:10381"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Wallon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:2029",
+      "fra-zho:10510"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "adresse",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:2219",
+      "fra-zho:2220"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "aide",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:2259",
+      "fra-zho:2260"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "modèle",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:7036",
+      "fra-zho:7037"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "pupille",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:8535",
+      "fra-zho:8536"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "pôle Nord",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:8603",
+      "fra-zho:8608"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "pôle Sud",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:8605",
+      "fra-zho:8609"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "variant Delta",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10293",
+      "fra-zho:10294"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Église",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10615",
+      "fra-zho:10758"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Équateur",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10631",
+      "fra-zho:10833"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Caïmans",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10653",
+      "fra-zho:10917"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Cocos",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10654",
+      "fra-zho:10918"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Cocos (Keeling)",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10655",
+      "fra-zho:10919"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Féroé",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10656",
+      "fra-zho:10921"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Mariannes du Nord",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10657",
+      "fra-zho:10924"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Marshall",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10658",
+      "fra-zho:10925"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Salomon",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10659",
+      "fra-zho:10928"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Turques et Caïques",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10660",
+      "fra-zho:10930"
+    ],
+    "merged": 2
+  },
+  {
+    "lemma": "Îles Vierges britanniques",
+    "pos": "noun",
+    "homograph": "",
+    "sourceRefs": [
+      "fra-zho:10661",
+      "fra-zho:10931"
+    ],
+    "merged": 2
+  }
+]

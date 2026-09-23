@@ -32,6 +32,10 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
+.verification/
+.codex-audit.json
+data/raw/
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +43,14 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Local tooling and device data (never publish)
+.claude/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+credentials.json
+*.ipa
+*.apk
+*.aab

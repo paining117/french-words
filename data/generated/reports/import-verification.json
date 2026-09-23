@@ -1,0 +1,136 @@
+{
+  "datasetVersion": "offline-v1-c9011a32432e3b83c703",
+  "validatedAt": "2026-09-23T14:39:20.582Z",
+  "environment": "Node v24.19.0, desktop SQLite; not iPhone",
+  "importMs": 911.16,
+  "repeatMs": 1.839,
+  "preservedOldWordIds": 66,
+  "preservedTables": [
+    "cards",
+    "review_logs",
+    "sessions",
+    "study_rounds",
+    "checkins"
+  ],
+  "counts": {
+    "words": 10780,
+    "meanings": 14991,
+    "examples": 2458,
+    "cards": 1,
+    "review_logs": 1,
+    "dictionary_word_map": 10767
+  },
+  "books": [
+    {
+      "id": "a1-core",
+      "total": 642,
+      "learned": 1
+    },
+    {
+      "id": "a2-core",
+      "total": 251,
+      "learned": 0
+    },
+    {
+      "id": "b1-core",
+      "total": 510,
+      "learned": 0
+    },
+    {
+      "id": "b2-core",
+      "total": 906,
+      "learned": 0
+    },
+    {
+      "id": "my-familiar",
+      "total": 0,
+      "learned": 0
+    },
+    {
+      "id": "my-vocabulary",
+      "total": 0,
+      "learned": 0
+    }
+  ],
+  "search": [
+    {
+      "query": "voiture",
+      "direction": "fr-zh",
+      "ms": 2.765,
+      "hits": 1
+    },
+    {
+      "query": "VOITURE",
+      "direction": "fr-zh",
+      "ms": 1.07,
+      "hits": 1
+    },
+    {
+      "query": "une voiture",
+      "direction": "fr-zh",
+      "ms": 1.142,
+      "hits": 1
+    },
+    {
+      "query": "ecole",
+      "direction": "fr-zh",
+      "ms": 1.367,
+      "hits": 5
+    },
+    {
+      "query": "etre",
+      "direction": "fr-zh",
+      "ms": 1.68,
+      "hits": 20
+    },
+    {
+      "query": "soeur",
+      "direction": "fr-zh",
+      "ms": 1.211,
+      "hits": 2
+    },
+    {
+      "query": "livre",
+      "direction": "fr-zh",
+      "ms": 1.175,
+      "hits": 6
+    },
+    {
+      "query": "vo",
+      "direction": "fr-zh",
+      "ms": 1.151,
+      "hits": 20
+    },
+    {
+      "query": "汽车",
+      "direction": "zh-fr",
+      "ms": 9.327,
+      "hits": 7
+    },
+    {
+      "query": "车",
+      "direction": "zh-fr",
+      "ms": 8.543,
+      "hits": 20
+    },
+    {
+      "query": "火山",
+      "direction": "zh-fr",
+      "ms": 9.294,
+      "hits": 10
+    },
+    {
+      "query": "not-a-real-word",
+      "direction": "fr-zh",
+      "ms": 2.555,
+      "hits": 0
+    }
+  ],
+  "maxSearchMs": 9.327,
+  "databaseFile": ".verification\\offline-import-kU1G2e\\dictionary.db",
+  "databaseBytes": 8392704,
+  "generatedBytes": 10985862,
+  "runtimeSeedBytes": 3645118,
+  "foreignKeys": "ok",
+  "integrity": "ok"
+}

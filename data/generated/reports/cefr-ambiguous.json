@@ -1,0 +1,326 @@
+[
+  {
+    "lemma": "aigue-marine",
+    "normalizedLemma": "aigue-marine",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "C2",
+    "levelFrequency": 0,
+    "totalFrequency": 0.0465,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_0dfb020e5b55f16c90c75866",
+      "dict_c5b064214bb4cdbbdf4cff66"
+    ]
+  },
+  {
+    "lemma": "arène",
+    "normalizedLemma": "arène",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "B1",
+    "levelFrequency": 2.3312,
+    "totalFrequency": 8.036,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_0b3453a856123e1e78d5c09f",
+      "dict_9f7e3b8541cc6da4305d49d1"
+    ]
+  },
+  {
+    "lemma": "basque",
+    "normalizedLemma": "basque",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "C1",
+    "levelFrequency": 0,
+    "totalFrequency": 0.0558,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_8aea08b60b5a6066202de645",
+      "dict_94885f9c46e94fb99b990b88",
+      "dict_d16ab75359a56d81a482a3c9"
+    ]
+  },
+  {
+    "lemma": "espace",
+    "normalizedLemma": "espace",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "A1",
+    "levelFrequency": 27.6131,
+    "totalFrequency": 122.2239,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_2af9a9dd3672cbae6072760b",
+      "dict_6b4ac2f609294b5be733848e"
+    ]
+  },
+  {
+    "lemma": "livre",
+    "normalizedLemma": "livre",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "A1",
+    "levelFrequency": 301.5694,
+    "totalFrequency": 273.1286,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_3ae2aa0757602227c30f7538",
+      "dict_5a064f8eac2cd47645682562"
+    ]
+  },
+  {
+    "lemma": "mode",
+    "normalizedLemma": "mode",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "A1",
+    "levelFrequency": 32.8693,
+    "totalFrequency": 163.4951,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_07c869cd3f16687979327a22",
+      "dict_f408aaa78a5cc29afbf7c2c1"
+    ]
+  },
+  {
+    "lemma": "orange",
+    "normalizedLemma": "orange",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "B1",
+    "levelFrequency": 0.4662,
+    "totalFrequency": 6.851,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_14902993b19ffbaea3d7c359",
+      "dict_3653500854adb1e919025f4f",
+      "dict_fbf22bb886b4ff515f46f7bc"
+    ]
+  },
+  {
+    "lemma": "page",
+    "normalizedLemma": "page",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "A1",
+    "levelFrequency": 33.972,
+    "totalFrequency": 68.8929,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_494b7b267126113d9f3b1dfb",
+      "dict_e6bb582abd87c7ef26d42f69"
+    ]
+  },
+  {
+    "lemma": "poste",
+    "normalizedLemma": "poste",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "A1",
+    "levelFrequency": 146.6046,
+    "totalFrequency": 103.279,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_1953390a6909753231f61f8e",
+      "dict_2f85e531d649eebb03b4755f"
+    ]
+  },
+  {
+    "lemma": "poêle",
+    "normalizedLemma": "poêle",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "B2",
+    "levelFrequency": 0,
+    "totalFrequency": 1.5363,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_2d90e35fd50007ecac0e51f3",
+      "dict_db17a6f4c265497e9e2c0941"
+    ]
+  },
+  {
+    "lemma": "rose",
+    "normalizedLemma": "rose",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "B1",
+    "levelFrequency": 4.0444,
+    "totalFrequency": 7.7315,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_634cc8ee53f2dc41d01c97c8",
+      "dict_80f701533d9bf14c277432a3",
+      "dict_87c468a03d48459e205c626f"
+    ]
+  },
+  {
+    "lemma": "tennis",
+    "normalizedLemma": "tennis",
+    "partOfSpeech": "noun",
+    "properNoun": false,
+    "cefrLevel": "A1",
+    "levelFrequency": 54.7841,
+    "totalFrequency": 15.0461,
+    "reason": "ambiguous_cefr_match",
+    "candidates": [
+      "dict_8b524bf3c292cc706273a418",
+      "dict_c6425b2e98fa28be76ee82a5"
+    ]
+  },
+  {
+    "wordId": "dict_e738ee24c9f12c1ea347b6ce",
+    "reason": "conflicting-cefr-levels",
+    "entries": [
+      {
+        "lemma": "avec",
+        "normalizedLemma": "avec",
+        "partOfSpeech": "adverb",
+        "properNoun": false,
+        "cefrLevel": "B1",
+        "levelFrequency": 3.6048,
+        "totalFrequency": 16.9863
+      },
+      {
+        "lemma": "avec",
+        "normalizedLemma": "avec",
+        "partOfSpeech": "preposition",
+        "properNoun": false,
+        "cefrLevel": "A1",
+        "levelFrequency": 5814.6254,
+        "totalFrequency": 4037.9232
+      }
+    ]
+  },
+  {
+    "wordId": "dict_45cf571fd6acea9e81b7fd36",
+    "reason": "conflicting-cefr-levels",
+    "entries": [
+      {
+        "lemma": "bonsoir",
+        "normalizedLemma": "bonsoir",
+        "partOfSpeech": "interjection",
+        "properNoun": false,
+        "cefrLevel": "A2",
+        "levelFrequency": 0,
+        "totalFrequency": 2.0214
+      },
+      {
+        "lemma": "bonsoir",
+        "normalizedLemma": "bonsoir",
+        "partOfSpeech": "noun",
+        "properNoun": false,
+        "cefrLevel": "A1",
+        "levelFrequency": 96.7968,
+        "totalFrequency": 19.1779
+      }
+    ]
+  },
+  {
+    "wordId": "dict_e558c223f6b075aac0a7f1fe",
+    "reason": "conflicting-cefr-levels",
+    "entries": [
+      {
+        "lemma": "chut",
+        "normalizedLemma": "chut",
+        "partOfSpeech": "interjection",
+        "properNoun": false,
+        "cefrLevel": "A2",
+        "levelFrequency": 0,
+        "totalFrequency": 1.8311
+      },
+      {
+        "lemma": "chut",
+        "normalizedLemma": "chut",
+        "partOfSpeech": "noun",
+        "properNoun": false,
+        "cefrLevel": "B2",
+        "levelFrequency": 1.3018,
+        "totalFrequency": 0.6378
+      }
+    ]
+  },
+  {
+    "wordId": "dict_f1d0ebe0df253fdbcd763289",
+    "reason": "conflicting-cefr-levels",
+    "entries": [
+      {
+        "lemma": "pourquoi",
+        "normalizedLemma": "pourquoi",
+        "partOfSpeech": "noun",
+        "properNoun": false,
+        "cefrLevel": "B2",
+        "levelFrequency": 13.5743,
+        "totalFrequency": 8.1921
+      },
+      {
+        "lemma": "pourquoi",
+        "normalizedLemma": "pourquoi",
+        "partOfSpeech": "adverb",
+        "properNoun": false,
+        "cefrLevel": "A1",
+        "levelFrequency": 706.0692,
+        "totalFrequency": 561.2054
+      }
+    ]
+  },
+  {
+    "wordId": "dict_250398f80463c118aa91dc1a",
+    "reason": "conflicting-cefr-levels",
+    "entries": [
+      {
+        "lemma": "que",
+        "normalizedLemma": "que",
+        "partOfSpeech": "adverb",
+        "properNoun": false,
+        "cefrLevel": "B1",
+        "levelFrequency": 112.9278,
+        "totalFrequency": 83.0147
+      },
+      {
+        "lemma": "que",
+        "normalizedLemma": "que",
+        "partOfSpeech": "pronoun",
+        "properNoun": false,
+        "cefrLevel": "A1",
+        "levelFrequency": 5588.0953,
+        "totalFrequency": 5115.266
+      },
+      {
+        "lemma": "que",
+        "normalizedLemma": "que",
+        "partOfSpeech": "conjunction",
+        "properNoun": false,
+        "cefrLevel": "A1",
+        "levelFrequency": 3664.6754,
+        "totalFrequency": 9520.5398
+      }
+    ]
+  },
+  {
+    "wordId": "dict_06dd981019758b258513fc78",
+    "reason": "conflicting-cefr-levels",
+    "entries": [
+      {
+        "lemma": "sauf",
+        "normalizedLemma": "sauf",
+        "partOfSpeech": "adjective",
+        "properNoun": false,
+        "cefrLevel": "B2",
+        "levelFrequency": 1.2705,
+        "totalFrequency": 3.4136
+      },
+      {
+        "lemma": "sauf",
+        "normalizedLemma": "sauf",
+        "partOfSpeech": "preposition",
+        "properNoun": false,
+        "cefrLevel": "A2",
+        "levelFrequency": 39.6439,
+        "totalFrequency": 46.1948
+      }
+    ]
+  }
+]

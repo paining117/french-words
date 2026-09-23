@@ -1,0 +1,21 @@
+{
+  "freedictRawHeadwords": 10947,
+  "freedictParsed": 10923,
+  "freedictSkipped": 24,
+  "uniqueDictionaryWords": 10767,
+  "chineseMeanings": 14956,
+  "flelexRaw": 14236,
+  "flelexParsed": 14236,
+  "flelexMatched": 2924,
+  "flelexUnmatched": 11287,
+  "ambiguousMatches": 18,
+  "A1": 624,
+  "A2": 251,
+  "B1": 510,
+  "B2": 906,
+  "tatoebaPairsParsed": 21222,
+  "tatoebaPairsEligible": 20152,
+  "wordsWithExamples": 2445,
+  "wordsWithoutExamples": 8322,
+  "warnings": []
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "version": "offline-v1-c9011a32432e3b83c703",
+  "generatedAt": "2026-09-23T08:32:09.201Z",
+  "sources": {
+    "freedict": {
+      "dictionary": "fra-zho",
+      "version": "2025.11.23",
+      "declaredExtent": "10947 headwords",
+      "license": "Creative Commons Attribution-ShareAlike 3.0 Unported Licensed under thelicense",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+      "publisher": "Karl Bartel",
+      "source": "WikDict Automatic creation of this bilingual dictionary by. Wiktionary.org DBnary Base data fromvia.",
+      "copyright": "No separate copyright statement in TEI header; see publisher, source and availability.",
+      "sourceUrl": "https://download.freedict.org/dictionaries/fra-zho/2025.11.23/freedict-fra-zho-2025.11.23.src.tar.xz",
+      "downloadedAt": "2026-09-22T14:10:56.808Z",
+      "sha256": "3a2153c03265102d3a48044951b7d6a824405415a7b400ded41c496502cc3c15",
+      "archiveSha512": "3a101af1bdd523e29f217dd8612ade44dbc73b65b4ea1358ac778ebe155a2cd8b02e3816cb1a9f1dd6500937fa35825d1544db57c5a8aedf71a365c57cdf188a"
+    },
+    "flelex": {
+      "available": true,
+      "variant": "FLELex / Beacco with TreeTagger POS",
+      "sourceUrl": "https://cental.uclouvain.be/cefrlex/static/resources/fr/FleLex_TT_Beacco.tsv",
+      "pageUrl": "https://cental.uclouvain.be/cefrlex/flelex/download/",
+      "license": "CC BY-NC-SA 4.0",
+      "version": "sha256:e0cbdb672fa4f83155acec4c8f01f179b30be08cb3d2d6cf0d9f25042b01e3d4",
+      "downloadedAt": "2026-09-23T08:30:45.739Z",
+      "authors": "Pintard, A. & François, T. (2020); François, T., Gala, N., Watrin, P. & Fairon, C. (2014)"
+    },
+    "tatoeba": {
+      "available": true,
+      "sourceUrl": "https://tatoeba.org/en/downloads",
+      "license": "CC BY 2.0 FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "downloadedAt": "2026-09-23T03:01:49.988127+00:00",
+      "sources": [
+        {
+          "url": "https://downloads.tatoeba.org/exports/per_language/fra/fra-cmn_links.tsv.bz2",
+          "sha256": "a7a39d643c866954d5b6540714a0abd2305eb6fd6b752c8382b3c3447152bfde",
+          "downloadedAt": "2026-09-23T02:59:09.749949+00:00"
+        },
+        {
+          "url": "https://downloads.tatoeba.org/exports/per_language/fra/fra_sentences_detailed.tsv.bz2",
+          "sha256": "5a6e8fd38053b44d89c89455f011e016259dd0344fe42fca4dfcba942b6586a5",
+          "downloadedAt": "2026-09-23T03:01:45.130465+00:00"
+        },
+        {
+          "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences_detailed.tsv.bz2",
+          "sha256": "9680457679aefd2cf97079b01e901b2c93b2584bee3b17f21da5c0754dff0565",
+          "downloadedAt": "2026-09-23T03:01:49.988127+00:00"
+        }
+      ],
+      "pairs": 21222,
+      "transformation": "Direct fra-cmn links joined with official detailed sentences; owner names retained; no inferred translations.",
+      "sha256": "dd2137b33bc8969dc4f8c7a32ea9261966da4b6bc62b926e06420fca590109c3"
+    }
+  },
+  "counts": {
+    "dictionaryEntries": 10767,
+    "meanings": 14956,
+    "examples": 2445,
+    "A1": 624,
+    "A2": 251,
+    "B1": 510,
+    "B2": 906
+  },
+  "warnings": []
+}

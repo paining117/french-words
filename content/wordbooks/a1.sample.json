@@ -1,0 +1,960 @@
+{
+  "id": "a1-core",
+  "name": "A1 示例词书",
+  "level": "A1",
+  "description": "sample dataset; not final production vocabulary. 开发测试示例，非正式生产词库。",
+  "words": [
+    {
+      "lemma": "bonjour",
+      "partOfSpeech": "interjection",
+      "meaningsZh": [
+        "你好"
+      ],
+      "examples": [
+        {
+          "french": "Bonjour, madame !",
+          "chinese": "您好，女士！"
+        }
+      ]
+    },
+    {
+      "lemma": "salut",
+      "partOfSpeech": "interjection",
+      "meaningsZh": [
+        "你好",
+        "再见"
+      ],
+      "examples": [
+        {
+          "french": "Salut, Paul !",
+          "chinese": "你好，保罗！"
+        }
+      ]
+    },
+    {
+      "lemma": "merci",
+      "partOfSpeech": "interjection",
+      "meaningsZh": [
+        "谢谢"
+      ],
+      "examples": [
+        {
+          "french": "Merci pour votre aide.",
+          "chinese": "谢谢您的帮助。"
+        }
+      ]
+    },
+    {
+      "lemma": "oui",
+      "partOfSpeech": "adverb",
+      "meaningsZh": [
+        "是",
+        "对"
+      ],
+      "examples": [
+        {
+          "french": "Oui, je suis français.",
+          "chinese": "是的，我是法国人。"
+        }
+      ]
+    },
+    {
+      "lemma": "non",
+      "partOfSpeech": "adverb",
+      "meaningsZh": [
+        "不",
+        "不是"
+      ],
+      "examples": [
+        {
+          "french": "Non, merci.",
+          "chinese": "不了，谢谢。"
+        }
+      ]
+    },
+    {
+      "lemma": "au revoir",
+      "partOfSpeech": "expression",
+      "meaningsZh": [
+        "再见"
+      ],
+      "examples": [
+        {
+          "french": "Au revoir et à demain !",
+          "chinese": "再见，明天见！"
+        }
+      ]
+    },
+    {
+      "lemma": "un",
+      "partOfSpeech": "numeral",
+      "meaningsZh": [
+        "一"
+      ],
+      "examples": [
+        {
+          "french": "J'ai un frère.",
+          "chinese": "我有一个兄弟。"
+        }
+      ]
+    },
+    {
+      "lemma": "deux",
+      "partOfSpeech": "numeral",
+      "meaningsZh": [
+        "二"
+      ],
+      "examples": [
+        {
+          "french": "Nous avons deux chats.",
+          "chinese": "我们有两只猫。"
+        }
+      ]
+    },
+    {
+      "lemma": "trois",
+      "partOfSpeech": "numeral",
+      "meaningsZh": [
+        "三"
+      ],
+      "examples": [
+        {
+          "french": "Il est trois heures.",
+          "chinese": "现在三点。"
+        }
+      ]
+    },
+    {
+      "lemma": "quatre",
+      "partOfSpeech": "numeral",
+      "meaningsZh": [
+        "四"
+      ],
+      "examples": [
+        {
+          "french": "Il y a quatre chaises.",
+          "chinese": "有四把椅子。"
+        }
+      ]
+    },
+    {
+      "lemma": "cinq",
+      "partOfSpeech": "numeral",
+      "meaningsZh": [
+        "五"
+      ],
+      "examples": [
+        {
+          "french": "J'ai cinq euros.",
+          "chinese": "我有五欧元。"
+        }
+      ]
+    },
+    {
+      "lemma": "dix",
+      "partOfSpeech": "numeral",
+      "meaningsZh": [
+        "十"
+      ],
+      "examples": [
+        {
+          "french": "Il a dix ans.",
+          "chinese": "他十岁。"
+        }
+      ]
+    },
+    {
+      "lemma": "homme",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un homme",
+      "meaningsZh": [
+        "男人"
+      ],
+      "examples": [
+        {
+          "french": "Cet homme est mon père.",
+          "chinese": "这个男人是我父亲。"
+        }
+      ]
+    },
+    {
+      "lemma": "femme",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une femme",
+      "meaningsZh": [
+        "女人",
+        "妻子"
+      ],
+      "examples": [
+        {
+          "french": "Cette femme est médecin.",
+          "chinese": "这位女士是医生。"
+        }
+      ]
+    },
+    {
+      "lemma": "enfant",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un enfant",
+      "meaningsZh": [
+        "孩子"
+      ],
+      "examples": [
+        {
+          "french": "Cet enfant aime lire.",
+          "chinese": "这个孩子喜欢阅读。"
+        }
+      ]
+    },
+    {
+      "lemma": "ami",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un ami",
+      "meaningsZh": [
+        "朋友"
+      ],
+      "examples": [
+        {
+          "french": "Paul est mon ami.",
+          "chinese": "保罗是我的朋友。"
+        }
+      ]
+    },
+    {
+      "lemma": "famille",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une famille",
+      "meaningsZh": [
+        "家庭"
+      ],
+      "examples": [
+        {
+          "french": "Ma famille habite ici.",
+          "chinese": "我家住在这里。"
+        }
+      ]
+    },
+    {
+      "lemma": "père",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un père",
+      "meaningsZh": [
+        "父亲"
+      ],
+      "examples": [
+        {
+          "french": "Mon père est professeur.",
+          "chinese": "我父亲是老师。"
+        }
+      ]
+    },
+    {
+      "lemma": "mère",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une mère",
+      "meaningsZh": [
+        "母亲"
+      ],
+      "examples": [
+        {
+          "french": "Ma mère travaille ici.",
+          "chinese": "我母亲在这里工作。"
+        }
+      ]
+    },
+    {
+      "lemma": "frère",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un frère",
+      "meaningsZh": [
+        "兄弟"
+      ],
+      "examples": [
+        {
+          "french": "Mon frère a vingt ans.",
+          "chinese": "我兄弟二十岁。"
+        }
+      ]
+    },
+    {
+      "lemma": "sœur",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une sœur",
+      "meaningsZh": [
+        "姐妹"
+      ],
+      "examples": [
+        {
+          "french": "Ma sœur aime le thé.",
+          "chinese": "我姐妹喜欢茶。"
+        }
+      ]
+    },
+    {
+      "lemma": "maison",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une maison",
+      "meaningsZh": [
+        "房子",
+        "家"
+      ],
+      "examples": [
+        {
+          "french": "La maison est petite.",
+          "chinese": "这栋房子很小。"
+        }
+      ]
+    },
+    {
+      "lemma": "école",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une école",
+      "meaningsZh": [
+        "学校"
+      ],
+      "examples": [
+        {
+          "french": "Je vais à l'école.",
+          "chinese": "我去上学。"
+        }
+      ]
+    },
+    {
+      "lemma": "livre",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un livre",
+      "meaningsZh": [
+        "书"
+      ],
+      "examples": [
+        {
+          "french": "Je lis un livre.",
+          "chinese": "我在读一本书。"
+        }
+      ]
+    },
+    {
+      "lemma": "stylo",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un stylo",
+      "meaningsZh": [
+        "钢笔",
+        "笔"
+      ],
+      "examples": [
+        {
+          "french": "J'ai un stylo bleu.",
+          "chinese": "我有一支蓝色的笔。"
+        }
+      ]
+    },
+    {
+      "lemma": "étudiant",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un étudiant",
+      "meaningsZh": [
+        "大学生"
+      ],
+      "examples": [
+        {
+          "french": "Il est étudiant.",
+          "chinese": "他是大学生。"
+        }
+      ]
+    },
+    {
+      "lemma": "professeur",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un professeur",
+      "meaningsZh": [
+        "老师",
+        "教授"
+      ],
+      "examples": [
+        {
+          "french": "Le professeur parle français.",
+          "chinese": "老师说法语。"
+        }
+      ]
+    },
+    {
+      "lemma": "table",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une table",
+      "meaningsZh": [
+        "桌子"
+      ],
+      "examples": [
+        {
+          "french": "Le livre est sur la table.",
+          "chinese": "书在桌上。"
+        }
+      ]
+    },
+    {
+      "lemma": "chaise",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une chaise",
+      "meaningsZh": [
+        "椅子"
+      ],
+      "examples": [
+        {
+          "french": "La chaise est près de la table.",
+          "chinese": "椅子在桌子旁。"
+        }
+      ]
+    },
+    {
+      "lemma": "eau",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une eau",
+      "meaningsZh": [
+        "水"
+      ],
+      "examples": [
+        {
+          "french": "Je bois de l'eau.",
+          "chinese": "我喝水。"
+        }
+      ]
+    },
+    {
+      "lemma": "pain",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un pain",
+      "meaningsZh": [
+        "面包"
+      ],
+      "examples": [
+        {
+          "french": "J'achète du pain.",
+          "chinese": "我买面包。"
+        }
+      ]
+    },
+    {
+      "lemma": "lait",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un lait",
+      "meaningsZh": [
+        "牛奶"
+      ],
+      "examples": [
+        {
+          "french": "Je bois du lait.",
+          "chinese": "我喝牛奶。"
+        }
+      ]
+    },
+    {
+      "lemma": "café",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un café",
+      "meaningsZh": [
+        "咖啡",
+        "咖啡馆"
+      ],
+      "examples": [
+        {
+          "french": "Je prends un café.",
+          "chinese": "我要一杯咖啡。"
+        }
+      ]
+    },
+    {
+      "lemma": "thé",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un thé",
+      "meaningsZh": [
+        "茶"
+      ],
+      "examples": [
+        {
+          "french": "Le thé est chaud.",
+          "chinese": "茶是热的。"
+        }
+      ]
+    },
+    {
+      "lemma": "pomme",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une pomme",
+      "meaningsZh": [
+        "苹果"
+      ],
+      "examples": [
+        {
+          "french": "Je mange une pomme.",
+          "chinese": "我吃一个苹果。"
+        }
+      ]
+    },
+    {
+      "lemma": "fromage",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un fromage",
+      "meaningsZh": [
+        "奶酪"
+      ],
+      "examples": [
+        {
+          "french": "J'aime le fromage.",
+          "chinese": "我喜欢奶酪。"
+        }
+      ]
+    },
+    {
+      "lemma": "restaurant",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un restaurant",
+      "meaningsZh": [
+        "餐馆"
+      ],
+      "examples": [
+        {
+          "french": "Nous allons au restaurant.",
+          "chinese": "我们去餐馆。"
+        }
+      ]
+    },
+    {
+      "lemma": "ville",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une ville",
+      "meaningsZh": [
+        "城市"
+      ],
+      "examples": [
+        {
+          "french": "Paris est une grande ville.",
+          "chinese": "巴黎是一个大城市。"
+        }
+      ]
+    },
+    {
+      "lemma": "rue",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une rue",
+      "meaningsZh": [
+        "街道"
+      ],
+      "examples": [
+        {
+          "french": "Cette rue est calme.",
+          "chinese": "这条街很安静。"
+        }
+      ]
+    },
+    {
+      "lemma": "gare",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une gare",
+      "meaningsZh": [
+        "火车站"
+      ],
+      "examples": [
+        {
+          "french": "La gare est près d'ici.",
+          "chinese": "火车站离这里很近。"
+        }
+      ]
+    },
+    {
+      "lemma": "magasin",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un magasin",
+      "meaningsZh": [
+        "商店"
+      ],
+      "examples": [
+        {
+          "french": "Le magasin est ouvert.",
+          "chinese": "商店开着门。"
+        }
+      ]
+    },
+    {
+      "lemma": "voiture",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une voiture",
+      "meaningsZh": [
+        "汽车"
+      ],
+      "examples": [
+        {
+          "french": "J'ai une voiture.",
+          "chinese": "我有一辆汽车。"
+        }
+      ]
+    },
+    {
+      "lemma": "train",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un train",
+      "meaningsZh": [
+        "火车"
+      ],
+      "examples": [
+        {
+          "french": "Je prends le train.",
+          "chinese": "我坐火车。"
+        }
+      ]
+    },
+    {
+      "lemma": "bus",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un bus",
+      "meaningsZh": [
+        "公共汽车"
+      ],
+      "examples": [
+        {
+          "french": "Le bus arrive.",
+          "chinese": "公共汽车来了。"
+        }
+      ]
+    },
+    {
+      "lemma": "vélo",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un vélo",
+      "meaningsZh": [
+        "自行车"
+      ],
+      "examples": [
+        {
+          "french": "Je vais à l'école à vélo.",
+          "chinese": "我骑自行车上学。"
+        }
+      ]
+    },
+    {
+      "lemma": "jour",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un jour",
+      "meaningsZh": [
+        "天",
+        "日子"
+      ],
+      "examples": [
+        {
+          "french": "Je travaille cinq jours par semaine.",
+          "chinese": "我每周工作五天。"
+        }
+      ]
+    },
+    {
+      "lemma": "matin",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un matin",
+      "meaningsZh": [
+        "早晨",
+        "上午"
+      ],
+      "examples": [
+        {
+          "french": "Je travaille le matin.",
+          "chinese": "我上午工作。"
+        }
+      ]
+    },
+    {
+      "lemma": "soir",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "displayForm": "un soir",
+      "meaningsZh": [
+        "晚上"
+      ],
+      "examples": [
+        {
+          "french": "Je lis le soir.",
+          "chinese": "我晚上读书。"
+        }
+      ]
+    },
+    {
+      "lemma": "heure",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "displayForm": "une heure",
+      "meaningsZh": [
+        "小时",
+        "时刻"
+      ],
+      "examples": [
+        {
+          "french": "Quelle heure est-il ?",
+          "chinese": "现在几点？"
+        }
+      ]
+    },
+    {
+      "lemma": "aujourd'hui",
+      "partOfSpeech": "adverb",
+      "meaningsZh": [
+        "今天"
+      ],
+      "examples": [
+        {
+          "french": "Aujourd'hui, il fait beau.",
+          "chinese": "今天天气很好。"
+        }
+      ]
+    },
+    {
+      "lemma": "demain",
+      "partOfSpeech": "adverb",
+      "meaningsZh": [
+        "明天"
+      ],
+      "examples": [
+        {
+          "french": "Je pars demain.",
+          "chinese": "我明天出发。"
+        }
+      ]
+    },
+    {
+      "lemma": "être",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "是",
+        "处于"
+      ],
+      "examples": [
+        {
+          "french": "Je suis à la maison.",
+          "chinese": "我在家。"
+        }
+      ]
+    },
+    {
+      "lemma": "avoir",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "有"
+      ],
+      "examples": [
+        {
+          "french": "J'ai une question.",
+          "chinese": "我有一个问题。"
+        }
+      ]
+    },
+    {
+      "lemma": "aller",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "去"
+      ],
+      "examples": [
+        {
+          "french": "Nous allons à Paris.",
+          "chinese": "我们去巴黎。"
+        }
+      ]
+    },
+    {
+      "lemma": "venir",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "来"
+      ],
+      "examples": [
+        {
+          "french": "Tu viens avec moi ?",
+          "chinese": "你跟我一起来吗？"
+        }
+      ]
+    },
+    {
+      "lemma": "prendre",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "拿",
+        "乘坐"
+      ],
+      "examples": [
+        {
+          "french": "Je prends le bus.",
+          "chinese": "我乘公共汽车。"
+        }
+      ]
+    },
+    {
+      "lemma": "manger",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "吃"
+      ],
+      "examples": [
+        {
+          "french": "Nous mangeons du pain.",
+          "chinese": "我们吃面包。"
+        }
+      ]
+    },
+    {
+      "lemma": "boire",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "喝"
+      ],
+      "examples": [
+        {
+          "french": "Tu veux boire de l'eau ?",
+          "chinese": "你想喝水吗？"
+        }
+      ]
+    },
+    {
+      "lemma": "parler",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "说话",
+        "讲"
+      ],
+      "examples": [
+        {
+          "french": "Je parle français.",
+          "chinese": "我说法语。"
+        }
+      ]
+    },
+    {
+      "lemma": "aimer",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "喜欢",
+        "爱"
+      ],
+      "examples": [
+        {
+          "french": "J'aime cette ville.",
+          "chinese": "我喜欢这座城市。"
+        }
+      ]
+    },
+    {
+      "lemma": "lire",
+      "partOfSpeech": "verb",
+      "meaningsZh": [
+        "读",
+        "阅读"
+      ],
+      "examples": [
+        {
+          "french": "Elle aime lire.",
+          "chinese": "她喜欢阅读。"
+        }
+      ]
+    },
+    {
+      "lemma": "grand",
+      "partOfSpeech": "adjective",
+      "meaningsZh": [
+        "大的",
+        "高的"
+      ],
+      "examples": [
+        {
+          "french": "Le jardin est grand.",
+          "chinese": "花园很大。"
+        }
+      ]
+    },
+    {
+      "lemma": "petit",
+      "partOfSpeech": "adjective",
+      "meaningsZh": [
+        "小的",
+        "矮的"
+      ],
+      "examples": [
+        {
+          "french": "Le chat est petit.",
+          "chinese": "这只猫很小。"
+        }
+      ]
+    },
+    {
+      "lemma": "bon",
+      "partOfSpeech": "adjective",
+      "meaningsZh": [
+        "好的",
+        "好吃的"
+      ],
+      "examples": [
+        {
+          "french": "Ce pain est bon.",
+          "chinese": "这面包很好吃。"
+        }
+      ]
+    },
+    {
+      "lemma": "beau",
+      "partOfSpeech": "adjective",
+      "meaningsZh": [
+        "美丽的",
+        "好看的"
+      ],
+      "examples": [
+        {
+          "french": "Ce jardin est beau.",
+          "chinese": "这个花园很美。"
+        }
+      ]
+    },
+    {
+      "lemma": "nouveau",
+      "partOfSpeech": "adjective",
+      "meaningsZh": [
+        "新的"
+      ],
+      "examples": [
+        {
+          "french": "J'ai un nouveau vélo.",
+          "chinese": "我有一辆新自行车。"
+        }
+      ]
+    }
+  ]
+}
