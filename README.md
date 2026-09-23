@@ -11,7 +11,7 @@
 3. 手机与电脑连接同一 Wi-Fi，用 iPhone 相机扫描二维码，选择在 Expo Go 打开。
 4. 使用时保持电脑和启动窗口运行。启动器会自动选择端口，或复用已有服务。
 
-想关闭电脑后独立使用，请阅读 [iPhone 安装说明](docs/iphone-install.md)。本仓库提供 EAS 打包配置，但尚未生成签名安装包、发布 TestFlight 或上架 App Store。
+想关闭电脑后独立使用，请阅读 [iPhone 安装说明](docs/iphone-install.md)。本仓库提供 EAS 安卓 APK 打包和 GitHub Actions iOS IPA 构建。iOS 采用免费 Apple ID 侧载，需要定期续签；均无需上架应用商店。
 
 ## 当前功能
 

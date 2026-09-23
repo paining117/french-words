@@ -1,6 +1,6 @@
 # iPhone 安装与运行
 
-截至本次整理，项目是源代码，尚无签名 IPA、TestFlight 邀请链接或 App Store 下载页面。上传 GitHub 不会自动生成这些内容。
+本项目不要求上架应用商店：安卓使用可直接安装的 APK，iOS 使用个人 Apple ID 签名后的 IPA。构建文件与手机真机安装是两个步骤。
 
 ## 现在就能使用：Expo Go
 
@@ -16,37 +16,43 @@
 
 若扫不开，先核对两端 Wi-Fi、Expo Go 版本、本地网络权限，以及电脑防火墙是否允许 Node 的专用网络访问。不要清除 Expo Go 数据来排查，以免丢失本地学习记录。
 
-## 独立 App：完成签名后安装
+## 独立 App：免费 Apple ID 侧载（当前选择）
 
-要让桌面出现独立 French Words 图标、关闭电脑仍能学习，需要构建包含代码和词库的 iOS App。Windows 可用 Expo EAS 的云端 iOS 构建；此流程需要 Expo 账号和有效的 Apple Developer 付费会员。是否开通由你决定，本次未购买会员或提交付费构建。
+不上架也能安装。当前选择生成 **未签名的 iPhone 真机 IPA**，再由侧载工具用你自己的 Apple ID 签名并安装。它不是模拟器文件，但也不能在 Safari 中点一下就直接装。
 
-个人设备测试可选 EAS 内部分发：
+1. 在 Windows 从 [Sideloadly 官方网站](https://sideloadly.io/) 下载并安装工具，按其官方指引准备 Apple 设备连接组件。
+2. 用 USB 将 iPhone 连接电脑，解锁手机并选择「信任此电脑」。
+3. 下载本项目的 `French-Words-ios-unsigned.ipa`，拖入 Sideloadly。
+4. 选择自己的 iPhone，输入自己的 Apple ID，点击 Start，按提示完成账号验证。密码与验证码只在你选择的工具中输入，不要发到聊天或上传 GitHub。
+5. 根据手机提示，在「设置 → 通用 → VPN 与设备管理」信任自己的开发者；如要求，在「设置 → 隐私与安全性」开启开发者模式并重启。
+6. 打开桌面上的 French Words。运行时无需 Expo Go，也无需保持开发服务器运行。
+7. 免费签名通常 7 天有效，需在到期前使用同一 Apple ID 和相同应用标识重新签名／刷新。可配置工具的自动刷新，但仍应留意续签是否成功。不要通过删除 App 来续签，以免丢失进度。
 
-1. 开通会员后，在电脑登录 Expo，连接你自己的项目。
-2. 注册要安装的 iPhone；用手机打开注册链接，按官方提示完成设备登记。
-3. 为本项目确定唯一的 iOS Bundle Identifier，并生成签名。不要更换已有正式 App 的标识来更新它。
-4. 使用仓库的 `preview` 配置构建。
-5. 构建成功后在已登记的 iPhone Safari 中打开 EAS 安装链接，点击 Install。按 iOS 提示完成信任／开发者模式设置（如要求）。
+Sideloadly 是第三方工具；官方说明支持 Windows、免费 Apple ID 和 IPA 侧载。[工具说明](https://sideloadly.io/) Apple 的个人开发签名存在 7 天有效期和 App 数量限制。[Apple 账户说明](https://developer.apple.com/help/account/basics/about-your-developer-account)
 
-供后续实际打包时使用的命令如下；当前没有会员，不必现在执行：
+iOS IPA 由 GitHub Actions 的 macOS/Xcode 环境编译，工作流为 **Build iOS IPA for sideloading**。它只在手动触发时运行，产物保留 30 天，不读取 Apple 账号或签名凭据。签名与真机安装由用户完成后，才算完整 iPhone 安装验收。
+
+## 可选：会员内部分发
+
+以后如开通 Apple Developer 付费会员，可使用 EAS `preview` 配置生成已签名 IPA，登记 iPhone 后从构建链接安装，不需要 App Store 或 TestFlight。未登记的设备不能安装，签名也有有效期。[Expo 内部分发说明](https://docs.expo.dev/build/internal-distribution/)
 
 ```powershell
-cd D:\同济大学\french-words
 npx.cmd eas-cli@latest login
-npx.cmd eas-cli@latest build:configure
 npx.cmd eas-cli@latest device:create
 npx.cmd eas-cli@latest build --platform ios --profile preview
 ```
 
-`eas.json` 只提供打包方式。Expo 项目关联、Apple 登录和签名需由账号本人完成，不要把密码、证书或令牌写进仓库。内部分发只允许签名中登记的设备安装，证书／描述文件过期后需重新签名；不是永久免维护安装。[Expo 内部分发说明](https://docs.expo.dev/build/internal-distribution/)
+本项目已关联 Expo 的 `@paining/french-words`，应用标识为 `com.paining.frenchwords`。其他人 fork 项目时须关联自己的 Expo 项目，不要覆盖现有正式 App 的标识或签名。
 
-若希望通过 TestFlight 安装：使用 `production` 构建并提交 App Store Connect，再邀请测试者；手机安装 TestFlight、接受邀请、点击安装。TestFlight 构建有有效期，外部测试还涉及 Apple 审核；这不是直接上架 App Store。[Expo iOS 提交说明](https://docs.expo.dev/submit/ios/)
+## 安卓 APK
 
-## 没有会员的其他途径
+安卓构建使用 EAS `preview` 配置，生成包含代码与词库的 APK，不是仅供商店分发的 AAB。
 
-拥有 Mac 时可以通过 Xcode 的免费个人签名在自己的 iPhone 上做开发测试，受设备、能力及签名有效期限制，通常需要每 7 天重新签名。Windows 本身没有 Xcode，当前项目也没有预制的已签名安装包。[Apple 开发者账户说明](https://developer.apple.com/help/account/basics/about-your-developer-account)
+```powershell
+npx.cmd eas-cli@latest build --platform android --profile preview
+```
 
-对当前 Windows 环境，继续 Expo Go 是现成可用的方式；需要独立安装时再准备开发者会员与 EAS 构建。
+下载 APK 到安卓手机，点击文件，按系统提示允许该下载来源安装应用，再确认安装。之后可独立打开，无需 Expo Go 或电脑。更新时保持同一包名和签名；安卓签名密钥由本次使用的 Expo 账号管理，不放入源码仓库。
 
 ## 学习记录
 

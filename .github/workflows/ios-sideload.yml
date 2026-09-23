@@ -1,0 +1,59 @@
+name: Build iOS IPA for sideloading
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ios:
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      CI: '1'
+      EXPO_NO_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Generate the native iOS project
+        run: npx expo prebuild --platform ios --no-install
+      - name: Install CocoaPods
+        run: pod install --project-directory=ios
+      - name: Build a release for physical iPhones without signing
+        run: |
+          set -o pipefail
+          xcodebuild -workspace ios/FrenchWords.xcworkspace \
+            -scheme FrenchWords -configuration Release -sdk iphoneos \
+            -destination 'generic/platform=iOS' -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY='' ARCHS=arm64 build 2>&1 | tee build-ios.log
+      - name: Package unsigned IPA
+        run: |
+          APP=build/Build/Products/Release-iphoneos/FrenchWords.app
+          test -d "$APP"
+          test -s "$APP/main.jsbundle"
+          mkdir -p artifact/Payload
+          cp -R "$APP" artifact/Payload/
+          cd artifact
+          zip -qry French-Words-ios-unsigned.ipa Payload
+          shasum -a 256 French-Words-ios-unsigned.ipa > SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: French-Words-ios-unsigned
+          path: |
+            artifact/French-Words-ios-unsigned.ipa
+            artifact/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: ios-build-log
+          path: build-ios.log
+          if-no-files-found: ignore

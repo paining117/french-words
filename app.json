@@ -2,16 +2,21 @@
   "expo": {
     "name": "French Words",
     "scheme": "french-words",
-    "plugins": ["expo-router", "expo-sqlite"],
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
     "slug": "french-words",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
+      "bundleIdentifier": "com.paining.frenchwords",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.paining.frenchwords",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -22,6 +27,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5da84014-9894-419b-8be2-614bc47364ba"
+      }
+    },
+    "owner": "paining"
   }
 }
