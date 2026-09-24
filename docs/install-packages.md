@@ -9,9 +9,13 @@
 | Android | French-Words-android.apk | 106,913,602 字节（101.96 MiB） | 下载到安卓手机后直接安装 |
 | iOS | French-Words-ios-unsigned.ipa | 13,635,183 字节（13.00 MiB） | 用电脑侧载工具和自己的 Apple ID 签名后安装 |
 
-- [安卓 APK 下载](https://expo.dev/artifacts/eas/_4OTyxKfiuw05LxqGe-TpSIcexvsaA8xiVnro86cE0M.apk)
+- [全部安装包与说明（GitHub Release）](https://github.com/paining117/french-words/releases/tag/v1.0.0)
+- [安卓 APK 下载](https://github.com/paining117/french-words/releases/download/v1.0.0/French-Words-android.apk)
+- [iOS IPA 下载](https://github.com/paining117/french-words/releases/download/v1.0.0/French-Words-ios-unsigned.ipa)
+- [安装说明下载](https://github.com/paining117/french-words/releases/download/v1.0.0/INSTALL.md)
+- [SHA-256 校验文件](https://github.com/paining117/french-words/releases/download/v1.0.0/SHA256SUMS.txt)
 - [安卓构建记录](https://expo.dev/accounts/paining/projects/french-words/builds/78a26718-1e34-447d-90f0-00fab26a9371)
-- [iOS 构建与下载](https://github.com/paining117/french-words/actions/runs/35884521509)：登录 GitHub，在 Artifacts 下载 `French-Words-ios-unsigned`，解压得到 IPA。该构建产物保留 30 天，本机副本不受此期限影响。
+- [iOS 构建记录](https://github.com/paining117/french-words/actions/runs/35884521509)：Actions 临时产物保留 30 天；上方 Release 中的安装包不使用该临时下载入口。
 - 本机完整文件：`D:\同济大学\french-words-installers`，含两个安装包、安装说明和 SHA256SUMS.txt。
 
 ## iPhone 免费侧载

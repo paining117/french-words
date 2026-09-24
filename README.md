@@ -4,6 +4,8 @@
 
 ## 独立安装包
 
+**[下载 v1.0.0 安装包](https://github.com/paining117/french-words/releases/tag/v1.0.0)** · [Android APK](https://github.com/paining117/french-words/releases/download/v1.0.0/French-Words-android.apk) · [iOS IPA（需侧载签名）](https://github.com/paining117/french-words/releases/download/v1.0.0/French-Words-ios-unsigned.ipa) · [安装步骤](docs/install-packages.md)
+
 Android APK 与 iOS 真机 IPA 已构建成功，下载链接和完整步骤见 [安装包交付](docs/install-packages.md)。安卓可直接安装；iOS 使用免费 Apple ID 通过电脑侧载，需定期续签。无需上架商店，尚待用户真机安装验收。
 
 ## 开发扫码运行
