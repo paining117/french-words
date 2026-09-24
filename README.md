@@ -2,9 +2,13 @@
 
 面向中文母语法语学习者的离线背单词 App，使用 Expo SDK 57、React Native、TypeScript、SQLite 和 ts-fsrs。
 
-## 在 iPhone 上使用
+## 独立安装包
 
-当前可用方式是 **Expo Go 扫码运行**。GitHub 保存源代码，不是 iPhone 安装包。
+Android APK 与 iOS 真机 IPA 已构建成功，下载链接和完整步骤见 [安装包交付](docs/install-packages.md)。安卓可直接安装；iOS 使用免费 Apple ID 通过电脑侧载，需定期续签。无需上架商店，尚待用户真机安装验收。
+
+## 开发扫码运行
+
+开发调试仍可使用 **Expo Go 扫码运行**，GitHub 源码 ZIP 本身不能直接安装。
 
 1. 电脑安装 Node.js 24 LTS；iPhone 在 App Store 安装支持 SDK 57 的 Expo Go。
 2. 在电脑打开本项目文件夹，双击 **启动法语背单词.cmd**。首次启动会安装依赖，需联网。
