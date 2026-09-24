@@ -13,6 +13,7 @@ import { NounArticle } from '../../src/components/word/NounArticle';
 import { partOfSpeechLabel } from '../../src/utils/wordLabel';
 import { logError } from '../../src/utils/logger';
 import { usageHint } from '../../src/utils/meaningHints';
+import { PronunciationButton } from '../../src/components/word/PronunciationButton';
 export default function WordScreen() {
   const params = useLocalSearchParams<{ id: string }>();
   const id = typeof params.id === 'string' ? params.id : '';
@@ -48,6 +49,7 @@ export default function WordScreen() {
   const familiar = membership?.id === id && membership.classification === 'familiar';
   const pos = partOfSpeechLabel(word.partOfSpeech, word.gender);
   return <Screen><View style={{ marginTop: 28, gap: 6 }}><Text selectable style={{ color: colors.text, fontSize: 38, fontWeight: '500' }}>{word.lemma}</Text><NounArticle partOfSpeech={word.partOfSpeech} gender={word.gender} /></View>
+    <PronunciationButton key={word.wordId} lemma={word.lemma} />
     {(word.displayForm || pos) && <View style={{ gap: 6 }}>{word.displayForm && <Text style={commonStyles.muted}>{word.displayForm}</Text>}{pos && <Text style={commonStyles.muted}>{pos}</Text>}</View>}
     <View style={{ gap: 10 }}>{word.meaningsZh.map((meaning, i) => <Text key={i} selectable style={{ color: colors.text, fontSize: 22, lineHeight: 32 }}>{meaning}</Text>)}</View>
     {!!usageHint(word) && <Text style={commonStyles.muted}>{usageHint(word)}</Text>}

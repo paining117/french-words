@@ -5,11 +5,13 @@ import { partOfSpeechLabel } from '../../utils/wordLabel';
 import { NounArticle } from './NounArticle';
 import { ExampleSentence } from './ExampleSentence';
 import { usageHint } from '../../utils/meaningHints';
+import { PronunciationButton } from './PronunciationButton';
 export function WordAnswer({ word }: { word: StudyWord }) {
   const label = partOfSpeechLabel(word.partOfSpeech, word.gender);
   const example = word.examples[0];
   return <View style={styles.answer}>
     <View style={{ gap: 6 }}><Text selectable style={styles.word}>{word.lemma}</Text><NounArticle partOfSpeech={word.partOfSpeech} gender={word.gender} /></View>
+    <PronunciationButton key={word.wordId} lemma={word.lemma} />
     {(word.displayForm || label) && <View style={styles.grammar}>{word.displayForm && <Text style={styles.display}>{word.displayForm}</Text>}{label && <Text style={styles.label}>{label}</Text>}</View>}
     <View style={styles.meanings}>{word.meaningsZh.map((meaning, index) => <Text key={`${index}:${meaning}`} style={styles.meaning}>{meaning}</Text>)}</View>
     {!!usageHint(word) && <Text style={styles.label}>{usageHint(word)}</Text>}
