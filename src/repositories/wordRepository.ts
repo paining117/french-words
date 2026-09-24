@@ -3,6 +3,12 @@ import type { Word } from '../types/word';
 import type { DictionaryEntry, Direction } from '../types/dictionary';
 import { escapeLike, normalizeFrench, foldFrenchSearch } from '../utils/normalizeFrench';
 
+/** Attribution stays accessible in About, away from learning and dictionary cards. */
+export function getExampleCredits(db: Connection, page: number) {
+  return db.getAllAsync<DictionaryEntry['examples'][number]>(`SELECT DISTINCT french, chinese, source, source_ref, attribution
+    FROM examples WHERE source = 'tatoeba' ORDER BY french, chinese, source_ref, attribution LIMIT 50 OFFSET ?`, Math.max(0, page) * 50);
+}
+
 export async function findWords(db: Connection, query: string, direction: Direction): Promise<Word[]> {
   const term = normalizeFrench(query);
   if (!term) return [];

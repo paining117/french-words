@@ -89,7 +89,10 @@ async function upgradeRound(db: Connection, state: DailyStudyRound): Promise<Dai
     return { word: byId.get(item.word.wordId) ?? item.word, attempt: item.attempt, minGap: item.minGap,
       phase: mastered ? 'recall' : preserve ? studyPhase(item) : 'choice', stars: mastered ? 3 : preserve ? item.stars ?? 0 : 0 };
   };
-  return { ...state, reinforcementVersion: 3, words, queue: state.queue.map(upgradeItem), snapshot: { ...state.snapshot, item: upgradeItem(state.snapshot.item) } };
+  const item = upgradeItem(state.snapshot.item);
+  // An answer already committed to the log keeps the exact choices it scored.
+  if (state.snapshot.status === 'answer') item.word = (await prepareMeaningChoices(db, [state.snapshot.item.word], true))[0];
+  return { ...state, reinforcementVersion: 3, words, queue: state.queue.map(upgradeItem), snapshot: { ...state.snapshot, item } };
 }
 
 export async function startStudy(db: Database, dependencies: StudyDependencies): Promise<StudyStartResult> {
@@ -117,7 +120,7 @@ export async function startStudy(db: Database, dependencies: StudyDependencies):
       if (!existing.state.words.length) existing = null;
     }
     if (existing) {
-      if (existing.state.reinforcementVersion !== 3 || existing.state.words.some(word => word.meaningChoices?.some(choice => !choice.lemma || !choice.frenchLabel))) {
+      if (existing.state.reinforcementVersion !== 3 || existing.state.words.some(word => word.meaningChoicesVersion !== 1 || word.meaningChoices?.some(choice => !choice.lemma || !choice.frenchLabel))) {
         existing.state = await upgradeRound(tx, existing.state);
         await saveStudyRound(tx, existing.state, existing.revision);
         existing.revision++;

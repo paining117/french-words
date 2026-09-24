@@ -31,6 +31,7 @@ function DatabaseContent() {
   return <>{!ready && <LoadState message="正在准备词库…" />}
     <SQLiteProvider databaseName="french_words.db" onInit={initialize}>
       <Stack screenOptions={({ navigation }) => ({
+        headerTitle: '',
         headerBackVisible: false,
         headerLeft: ({ canGoBack }) => canGoBack ? <BackButton onPress={() => navigation.goBack()} /> : null,
         // iOS 26 otherwise adds a glass capsule around custom header controls.

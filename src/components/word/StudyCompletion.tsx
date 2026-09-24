@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, InputAccessoryView, Keyboard, KeyboardAvoidingView, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import { useHeaderHeight, usePreventRemove } from 'expo-router/react-navigation';
@@ -6,7 +6,7 @@ import { useSQLiteContext } from 'expo-sqlite';
 import { LearningScreen } from '../common/LearningScreen';
 import { AppButton } from '../common/AppButton';
 import { StudySummary } from './StudySummary';
-import { checkSpelling, createSpelling, loadCompletion, nextSpelling, saveCompletion, spellingCharacters, spellingDraft, type CompletionState } from '../../services/spellingService';
+import { checkSpelling, createSpelling, loadCompletion, loadSpellingHints, nextSpelling, saveCompletion, spellingCharacters, spellingDraft, type CompletionState } from '../../services/spellingService';
 import type { StudySnapshot } from '../../types/study';
 import { colors } from '../../theme/colors';
 import { logError } from '../../utils/logger';
@@ -17,6 +17,7 @@ export function StudyCompletion({ roundId, result, onContinue }: {
   const db = useSQLiteContext();
   const headerHeight = useHeaderHeight();
   const [state, setState] = useState<CompletionState | null>(null);
+  const [hints, setHints] = useState<Record<string, string | undefined>>({});
   const [input, setInput] = useState('');
   const [retrying, setRetrying] = useState(false);
   const [error, setError] = useState('');
@@ -29,11 +30,15 @@ export function StudyCompletion({ roundId, result, onContinue }: {
   const spellingActive = state?.stage === 'spelling' && !!word;
   const correct = spelling?.status === 'correct';
   const wrong = spelling?.status === 'wrong' && !retrying;
+  const load = useCallback(async () => {
+    const [value, clues] = await Promise.all([loadCompletion(db, roundId), loadSpellingHints(db, result.words)]);
+    if (alive.current) { setHints(clues); setState(value); setInput(spellingDraft(value.spelling)); setRetrying(false); }
+  }, [db, roundId, result.words]);
   useEffect(() => {
     alive.current = true;
-    void loadCompletion(db, roundId).then(value => { if (alive.current) { setState(value); setInput(spellingDraft(value.spelling)); setRetrying(false); } }).catch(reason => { logError(reason); if (alive.current) setError('加载失败，请重试'); });
+    void load().catch(reason => { logError(reason); if (alive.current) setError('加载失败，请重试'); });
     return () => { alive.current = false; };
-  }, [db, roundId]);
+  }, [load]);
   useEffect(() => {
     const show = Keyboard.addListener('keyboardDidShow', () => setKeyboardOpen(true));
     const hide = Keyboard.addListener('keyboardDidHide', () => setKeyboardOpen(false));
@@ -65,7 +70,7 @@ export function StudyCompletion({ roundId, result, onContinue }: {
     <Pressable accessibilityRole="button" accessibilityLabel="退出拼写" disabled={busy} onPress={exit} style={({ pressed }) => [styles.tool, pressed && styles.toolPressed, busy && styles.toolDisabled]}><SpellingActionIcon kind="close" /></Pressable>
     <Pressable accessibilityRole="button" accessibilityLabel={correct ? '下一个单词' : '检查拼写'} disabled={busy || (!correct && !input.trim())} onPress={submit} style={({ pressed }) => [styles.tool, pressed && styles.toolPressed, (busy || (!correct && !input.trim())) && styles.toolDisabled]}><SpellingActionIcon kind={correct ? 'next' : 'check'} highlighted={correct} /></Pressable>
   </View>;
-  if (!state) return <LearningScreen><View style={styles.center}>{error ? <AppButton title="重试" onPress={() => { setError(''); void loadCompletion(db, roundId).then(setState).catch(reason => { logError(reason); setError('加载失败，请重试'); }); }} /> : <ActivityIndicator />}</View></LearningScreen>;
+  if (!state) return <LearningScreen><View style={styles.center}>{error ? <AppButton title="重试" onPress={() => { setError(''); void load().catch(reason => { logError(reason); setError('加载失败，请重试'); }); }} /> : <ActivityIndicator />}</View></LearningScreen>;
   if (state.stage === 'summary') return <LearningScreen><StudySummary result={result} /><View style={styles.footer}><AppButton title="继续学习" onPress={onContinue} /><AppButton title="返回首页" onPress={() => router.dismissTo('/')} /></View></LearningScreen>;
   if (state.stage === 'choice') return <LearningScreen><View style={[styles.center, styles.choices]}><AppButton title="总结" disabled={busy} onPress={() => void save({ stage: 'summary', spelling: null })} /><AppButton title="开始拼写" disabled={busy} onPress={() => void save({ stage: 'spelling', spelling: createSpelling(result.words) })} />{error !== '' && <Text style={styles.error}>{error}</Text>}</View></LearningScreen>;
   if (!word || !spelling) return <LearningScreen><View style={styles.center}><AppButton title="总结" onPress={() => void save({ stage: 'summary', spelling: spelling ?? null })} /></View></LearningScreen>;
@@ -87,6 +92,7 @@ export function StudyCompletion({ roundId, result, onContinue }: {
       </View>
       {spelling.hadError && !correct && <Text style={[styles.correctAnswer, styles.green]}>{word.lemma}</Text>}
       <Text style={styles.meaning}>{word.meaning}</Text>
+      {!!hints[word.wordId] && <Text style={styles.hint}>{hints[word.wordId]}</Text>}
       {error !== '' && <Text style={styles.error}>{error}</Text>}
     </View>
     {(Platform.OS !== 'ios' || !keyboardOpen) && toolbar}
@@ -114,6 +120,7 @@ const styles = StyleSheet.create({
   center: { flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 28, gap: 20 },
   choices: { alignItems: 'stretch', paddingHorizontal: 60 }, footer: { padding: 20, gap: 12 },
   meaning: { fontSize: 16, lineHeight: 24, color: colors.text, textAlign: 'center', maxHeight: 120 },
+  hint: { fontSize: 14, lineHeight: 22, color: colors.secondary, textAlign: 'center' },
   progress: { fontSize: 15, color: colors.secondary, paddingHorizontal: 28, paddingTop: 18 },
   inputBox: { width: '100%', minHeight: 64 },
   input: { padding: 10, fontSize: 32, lineHeight: 44, textAlign: 'center', color: colors.text },

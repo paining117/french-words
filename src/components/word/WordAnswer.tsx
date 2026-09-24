@@ -4,6 +4,7 @@ import { colors } from '../../theme/colors';
 import { partOfSpeechLabel } from '../../utils/wordLabel';
 import { NounArticle } from './NounArticle';
 import { ExampleSentence } from './ExampleSentence';
+import { usageHint } from '../../utils/meaningHints';
 export function WordAnswer({ word }: { word: StudyWord }) {
   const label = partOfSpeechLabel(word.partOfSpeech, word.gender);
   const example = word.examples[0];
@@ -11,6 +12,7 @@ export function WordAnswer({ word }: { word: StudyWord }) {
     <View style={{ gap: 6 }}><Text selectable style={styles.word}>{word.lemma}</Text><NounArticle partOfSpeech={word.partOfSpeech} gender={word.gender} /></View>
     {(word.displayForm || label) && <View style={styles.grammar}>{word.displayForm && <Text style={styles.display}>{word.displayForm}</Text>}{label && <Text style={styles.label}>{label}</Text>}</View>}
     <View style={styles.meanings}>{word.meaningsZh.map((meaning, index) => <Text key={`${index}:${meaning}`} style={styles.meaning}>{meaning}</Text>)}</View>
+    {!!usageHint(word) && <Text style={styles.label}>{usageHint(word)}</Text>}
     {example && <ExampleSentence {...example} />}
   </View>;
 }

@@ -1,6 +1,23 @@
 import type { Connection } from '../db/connection';
 import { foldFrenchSearch } from '../utils/normalizeFrench';
 import type { StudyReviewWord } from '../types/study';
+import { meaningKeys, spellingHint } from '../utils/meaningHints';
+import { getLearningMeanings, type MeaningCandidate } from './learningMeanings';
+
+export async function loadSpellingHints(db: Connection, words: readonly StudyReviewWord[]): Promise<Record<string, string | undefined>> {
+  const candidates = await getLearningMeanings(db);
+  const byMeaning = new Map<string, MeaningCandidate[]>();
+  for (const candidate of candidates) for (const key of new Set(candidate.meaningsZh.flatMap(meaningKeys))) {
+    const group = byMeaning.get(key) ?? [];
+    group.push(candidate); byMeaning.set(key, group);
+  }
+  return Object.fromEntries(words.map(word => {
+    const alternatives = meaningKeys(word.meaning).flatMap(key => byMeaning.get(key) ?? []);
+    // Also covers an old saved round whose original word is no longer in a book.
+    const roundPeers = words.filter(peer => meaningKeys(peer.meaning).some(key => meaningKeys(word.meaning).includes(key)));
+    return [word.wordId, spellingHint(word, [...alternatives, ...roundPeers])];
+  }));
+}
 
 export interface SpellingState {
   queue: string[];

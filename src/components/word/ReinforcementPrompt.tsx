@@ -3,6 +3,7 @@ import type { StudyQueueItem } from '../../types/study';
 import { studyPhase } from '../../services/studyQueue';
 import { WordPrompt } from './WordPrompt';
 import { colors } from '../../theme/colors';
+import { usageHint } from '../../utils/meaningHints';
 
 export function ReinforcementPrompt({ item, disabled, onChoose, selectedChoiceId }: { item: StudyQueueItem; disabled: boolean; onChoose: (id: string) => void; selectedChoiceId?: string }) {
   const { height } = useWindowDimensions();
@@ -11,6 +12,7 @@ export function ReinforcementPrompt({ item, disabled, onChoose, selectedChoiceId
   const wrong = answered && selectedChoiceId !== item.word.wordId;
   if (phase === 'meaning') return <View style={styles.meaningPrompt}>
     {item.word.meaningsZh.map((meaning, index) => <Text key={index} selectable style={styles.meaning}>{meaning}</Text>)}
+    {!!usageHint(item.word) && <Text style={styles.hint}>{usageHint(item.word)}</Text>}
   </View>;
   return <View style={[styles.wrap, phase === 'choice' && { paddingBottom: Math.min(48, height * 0.04) }]}><WordPrompt lemma={item.word.lemma} compact={phase === 'choice'} />
     {phase === 'choice' && <>
@@ -33,4 +35,5 @@ const styles = StyleSheet.create({
   optionFrench: { color: colors.forest, fontSize: 17 },
   meaningPrompt: { flexGrow: 1, minHeight: 260, paddingVertical: 40, gap: 24, alignItems: 'center', justifyContent: 'center' },
   meaning: { color: colors.text, fontSize: 30, lineHeight: 44, textAlign: 'center' },
+  hint: { color: colors.secondary, fontSize: 15, lineHeight: 24, textAlign: 'center' },
 });

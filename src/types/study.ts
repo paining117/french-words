@@ -7,7 +7,7 @@ export const USER_RATINGS: ReadonlyArray<{ value: UserRating; label: string }> =
   { value: 'unknown', label: '不认识' },
 ];
 export interface MeaningChoice { id: string; meaning: string; lemma?: string; frenchLabel?: string }
-export type StudyWord = DictionaryEntry & { wordId: string; meaningChoices?: MeaningChoice[] };
+export type StudyWord = DictionaryEntry & { wordId: string; meaningChoices?: MeaningChoice[]; meaningChoicesVersion?: 1 };
 export type StudyPhase = 'new' | 'relearn' | 'choice' | 'meaning' | 'recall';
 export interface StudySummary {
   total_count: number;

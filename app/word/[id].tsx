@@ -12,6 +12,7 @@ import { colors } from '../../src/theme/colors';
 import { NounArticle } from '../../src/components/word/NounArticle';
 import { partOfSpeechLabel } from '../../src/utils/wordLabel';
 import { logError } from '../../src/utils/logger';
+import { usageHint } from '../../src/utils/meaningHints';
 export default function WordScreen() {
   const params = useLocalSearchParams<{ id: string }>();
   const id = typeof params.id === 'string' ? params.id : '';
@@ -49,8 +50,8 @@ export default function WordScreen() {
   return <Screen><View style={{ marginTop: 28, gap: 6 }}><Text selectable style={{ color: colors.text, fontSize: 38, fontWeight: '500' }}>{word.lemma}</Text><NounArticle partOfSpeech={word.partOfSpeech} gender={word.gender} /></View>
     {(word.displayForm || pos) && <View style={{ gap: 6 }}>{word.displayForm && <Text style={commonStyles.muted}>{word.displayForm}</Text>}{pos && <Text style={commonStyles.muted}>{pos}</Text>}</View>}
     <View style={{ gap: 10 }}>{word.meaningsZh.map((meaning, i) => <Text key={i} selectable style={{ color: colors.text, fontSize: 22, lineHeight: 32 }}>{meaning}</Text>)}</View>
-    {word.examples.map((example, i) => <View key={i} style={{ gap: 10, marginTop: 16 }}><Text selectable style={{ fontSize: 18, lineHeight: 28, color: colors.text }}>{example.french}</Text><Text style={commonStyles.muted}>{example.chinese}</Text>{example.source === 'tatoeba' && <Text selectable style={[commonStyles.muted, { fontSize: 11 }]}>{example.attribution}{'\n'}{example.source_ref?.replace(/\|/g, '\n')}</Text>}</View>)}
-    <Text style={commonStyles.muted}>{word.sourceLabel}</Text>
+    {!!usageHint(word) && <Text style={commonStyles.muted}>{usageHint(word)}</Text>}
+    {word.examples.map((example, i) => <View key={i} style={{ gap: 10, marginTop: 16 }}><Text selectable style={{ fontSize: 18, lineHeight: 28, color: colors.text }}>{example.french}</Text><Text style={commonStyles.muted}>{example.chinese}</Text></View>)}
     <View style={{ gap: 8, marginTop: 12 }}>
       {error && <Text accessibilityLiveRegion="polite" style={{ color: colors.error }}>{error}</Text>}
       <AppButton title={busy ? '正在保存…' : familiar ? '已标熟' : added ? '已加入生词本' : '+ 加入生词本'} disabled={busy || added || familiar || membership?.id !== id} onPress={() => { void changeMembership(true); }} />
